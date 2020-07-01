@@ -19,3 +19,5 @@ const urls = [
   }
 ]
 export default urls;
+
+// I wouldn't put data folder inside components (cos it isn't one I guess)

@@ -1,6 +1,7 @@
 ﻿import React, { Component } from "react";
 import styles from "./Card.module.scss";
 import urls from "../data/urls";
+// This file all perfect except indentation! Watch out for that. Also remove redundant imports
 
 class Card extends Component {
 
