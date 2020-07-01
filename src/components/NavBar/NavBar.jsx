@@ -7,6 +7,8 @@ import { faHamburger } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faHamburger)
 
+// All absolutely fabulous.
+
 class NavBar extends Component {
   state = {
     isOpen: false
