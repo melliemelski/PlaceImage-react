@@ -17,11 +17,12 @@ class App extends Component {
   render() {
     return (
       <>
-          <NavBar/>
-        <section className={styles.Cards}>
-          {urls.map(this.getCard)}
-          
-        </section>
+        <NavBar/>
+        <div className={styles.Wrap}>
+          <section className={styles.Cards}>
+            {urls.map(this.getCard)}
+          </section>
+        </div>
       </>
     );
   }

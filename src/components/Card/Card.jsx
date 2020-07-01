@@ -16,7 +16,7 @@ class Card extends Component {
     
         getDrop = () => {
           if (this.state.isOpen === true) {
-            return (this.props.title, this.props.text)
+            return (<p>{this.props.title, this.props.text}</p>)
           } else {
             return null;
           }
@@ -30,9 +30,9 @@ class Card extends Component {
         return (
           <>
           <section>
+            <img src={url} onClick={()=> this.toggleState(this.state.isOpen)}/>
             {this.getDrop}
-            <img className={styles.cage} src={url} onClick={()=> this.toggleState(this.state.isOpen)}/>
-            <p></p>  
+            
           </section>
           </>
         );
