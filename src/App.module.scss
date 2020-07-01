@@ -1,7 +1,12 @@
-.cards {
-  display: inline-flexbox;
-  justify-content: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-section {
-  display: inline-flexbox;
+
+.Cards {
+  display: inline-flex;
+  justify-content: space-evenly;
+  border: 2px solid red;
 }
