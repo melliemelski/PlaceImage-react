@@ -3,6 +3,9 @@ import styles from "./App.module.scss";
 import Card from "./components/Card";
 import NavBar from "./components/NavBar";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHamburger } from '@fortawesome/free-solid-svg-icons'
+ 
 
 import urls from "./components/data/urls"
 

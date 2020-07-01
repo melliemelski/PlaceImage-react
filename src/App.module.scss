@@ -6,14 +6,17 @@
 }
 .Wrap {
   display: flex;
-  border: 2px solid red;
+  border: 2px dashed black;
   justify-content: center;
+  height: 80vh;
+  width: 80vw;
+  margin: 0 auto;
 }
 .Cards {
   display: inline-flex;
+  justify-content: space-between;
+  padding: 10px;
   // align-items: center;
-  justify-content: space-evenly;
-  border: 2px solid blue;
-  margin-left: 50px;
+  margin-top: 20px;
 }
 
