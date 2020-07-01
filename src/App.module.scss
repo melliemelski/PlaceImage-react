@@ -1,4 +1,7 @@
 .cards {
-  display: flex;
+  display: inline-flexbox;
   justify-content: center;
+}
+section {
+  display: inline-flexbox;
 }

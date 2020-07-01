@@ -4,19 +4,22 @@ import Card from "./components/Card";
 import NavBar from "./components/NavBar";
 import Drop from "./components/Drop";
 
+import urls from "./components/data/urls"
+
 
 class App extends Component {
-  
+  getCard = (url) => (
+    <div className={styles.card} key={url.idSite}>
+      <Card url={url} />
+    </div>
+  )
 
   render() {
     return (
       <>
-        <NavBar/>
+          <NavBar/>
         <section className={styles.Cards}>
-          <Card></Card>
-          <Drop></Drop>
-          <Card></Card>
-          <Card></Card>
+          {urls.map(this.getCard)}
         </section>
       </>
     );
